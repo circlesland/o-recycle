@@ -56,19 +56,19 @@
 
 <div class="grid">
   <header
-    class="flex flex-col justify-center bg-grey-lighter border-b border-gray-300">
-    <div class="text-primary font-bold uppercase text-center">Login</div>
+    class="flex flex-col justify-center border-b border-gray-300 bg-grey-lighter">
+    <div class="font-bold text-center uppercase text-primary">Login</div>
   </header>
 
   <main class="overflow-y-scroll h-full bg-gray-100 p-8;">
-    <p class="text-sm py-4 text-center text-gray-700">Yeah!</p>
+    <p class="py-4 text-sm text-center text-gray-700">Yeah!</p>
   </main>
 
-  <footer class="text-sm border-t border-gray-300 p-6">
+  <footer class="p-6 text-sm border-t border-gray-300">
     <div>
       <!-- <form method="POST" onsubmit="return false;">
         <div
-          class="w-full p-3 bg-primary uppercase font-bold text-white text-center rounded-lg">
+          class="w-full p-3 font-bold text-center text-white uppercase rounded-lg bg-primary">
           Oida!
         </div>
       </form> -->
@@ -78,19 +78,19 @@
 
 <!-- 
 
-<div class=" bg-gray-100 p-8">
-  <h1 class="text-primary text-3xl font-bold pb-2">Login</h1>
+<div class="p-8 bg-gray-100 ">
+  <h1 class="pb-2 text-3xl font-bold text-primary">Login</h1>
 </div>
 <div class="h-full overflow-y-scroll">
   <div class="p-4 ">
-    <h3 class="text-sm text-primary font-medium">
+    <h3 class="text-sm font-medium text-primary">
       Please enter your Seedphrase
     </h3>
-    <div class="box border rounded flex flex-col     bg-white">
+    <div class="flex flex-col bg-white border rounded box ">
       <textarea
         placeholder="word1 word2 ... word24"
         bind:value={seedPhrase}
-        class="text-grey-darkest flex-1 p-2 m-1 bg-transparent" />
+        class="flex-1 p-2 m-1 bg-transparent text-grey-darkest" />
     </div>
     <button
       class="w-full mt-2"

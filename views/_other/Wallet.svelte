@@ -2,8 +2,8 @@
     export let navigateTo: (dapp:string,page:string)=>{};
 </script>
 
-<main class="overflow-y-scroll h-full bg-gray-100 p-8">
-    <h1 class="text-primary text-3xl font-bold pb-2">
+<main class="h-full p-8 overflow-y-scroll bg-gray-100">
+    <h1 class="pb-2 text-3xl font-bold text-primary">
         Welcome to the Circles Lite Wallet
     </h1>
     <p class="">The Circles Lite Wallet is build on ipfs</p>

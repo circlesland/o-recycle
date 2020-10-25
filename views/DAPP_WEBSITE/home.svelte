@@ -26,16 +26,16 @@
   }
 </style>
 
-<div class="flex flex-col h-full w-full text-blue-900">
-  <main class="h-full flex-1 flex overflow-hidden w-full">
-    <div class="flex items-center justify-center h-screen w-screen">
-      <div class="text-primary uppercase text-4xl">
+<div class="flex flex-col w-full h-full text-blue-900">
+  <main class="flex flex-1 w-full h-full overflow-hidden">
+    <div class="flex items-center justify-center w-screen h-screen">
+      <div class="text-4xl uppercase text-primary">
         <img
           class="mx-auto"
           src="/images/logo.png"
           height="100px"
           width="100px" />
-        <div class="text-center mt-4">Coming Soon</div>
+        <div class="mt-4 text-center">Coming Soon</div>
       </div>
     </div>
   </main>
@@ -44,12 +44,12 @@
       <div class="w-full my-1">
         <div class="flex justify-center">
           <button
-            class="px-1 hover:text-green-400 uppercase text-center text-sm font-bold"
+            class="px-1 text-sm font-bold text-center uppercase hover:text-green-400"
             on:click={() => curRoute.set('?route=home')}>
             Home
           </button>
           <button
-            class="px-1 hover:text-green-400 uppercase text-center text-sm font-bold"
+            class="px-1 text-sm font-bold text-center uppercase hover:text-green-400"
             on:click={() => curRoute.set('?route=imprint')}>
             Imprint
           </button>

@@ -46,30 +46,30 @@
 </style>
 
 <!-- <div
-  class=" bg-white h-screen flex flex-col items-center justify-center bg-grey-lighter bg-cover bg-center"
+  class="flex flex-col items-center justify-center h-screen bg-white bg-center bg-cover  bg-grey-lighter"
   style="background-image: url(https://source.unsplash.com/7awMZWDS4rg)">
   <div
-    class="wrap shadow-2xl border border-gray-300 bg-white rounded-lg md:m-12 w-full h-full max-w-md justify-center">
+    class="justify-center w-full h-full max-w-md bg-white border border-gray-300 rounded-lg shadow-2xl wrap md:m-12">
     <div class="grid">
       <header
-        class="flex flex-col justify-center bg-grey-lighter border-b border-gray-300">
-        <div class="text-primary font-bold uppercase text-center">Login</div>
+        class="flex flex-col justify-center border-b border-gray-300 bg-grey-lighter">
+        <div class="font-bold text-center uppercase text-primary">Login</div>
       </header>
       <main>
         {#if user}
-        <h1 class="text-center text-3xl font-title text-primary">
+        <h1 class="text-3xl text-center font-title text-primary">
           Willkommen {user.name},
           <br />{user.email}
         </h1>
         {/if}
-        <p class="text-sm py-4 text-center text-gray-700">Yeah!</p>
+        <p class="py-4 text-sm text-center text-gray-700">Yeah!</p>
       </main>
 
-      <footer class="text-sm border-t border-gray-300 p-6">
+      <footer class="p-6 text-sm border-t border-gray-300">
         <div>
           <form method="POST" onsubmit="return false;">
             <div
-              class="w-full p-3 bg-primary uppercase font-bold text-white text-center rounded-lg">
+              class="w-full p-3 font-bold text-center text-white uppercase rounded-lg bg-primary">
               Oida!
             </div>
           </form>

@@ -30,7 +30,7 @@
 </style>
 <!-- 
 <main class="overflow-y-scroll">
-<div class="h-32 pt-6 bg-primary text-4xl font-bold text-center text-white">
+<div class="h-32 pt-6 text-4xl font-bold text-center text-white bg-primary">
     <p>{balance} CRC</p>
     <p class="text-xs text-gray-400">Safe: {safeaddress.toLowerCase()}</p>
 </div>
@@ -38,17 +38,17 @@
     <div class="p-2 text-lg text-primary">Your Transactions</div>
         {#if activitiesquery}
             {#each activitiesquery.notifications as n}
-            <div class="flex h-14 w-full text-primary bg-white border-b border-gray-200">
-                <div class="w-12 h-12 flex flex-col justify-center text-center">
+            <div class="flex w-full bg-white border-b border-gray-200 h-14 text-primary">
+                <div class="flex flex-col justify-center w-12 h-12 text-center">
                 <i class="text-2xl fas fa-arrow-down" />
                 </div>
-                <div class="text-base py-2 px-2 flex-1">
+                <div class="flex-1 px-2 py-2 text-base">
                     {n.type}
-                <p class="text-xs -mt-2 text-gray-500">
+                <p class="-mt-2 text-xs text-gray-500">
                     {moment.unix(n.time).locale('en').fromNow()} from {n.transfer.from} to {n.transfer.to}
                 </p>
                 </div>
-                <div class="font-title h-12 py-2 px-3 text-2xl font-bold text-secondary">
+                <div class="h-12 px-3 py-2 text-2xl font-bold font-title text-secondary">
                 </div>
             </div>
             {/each}
