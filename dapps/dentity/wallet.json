@@ -1,0 +1,17 @@
+{
+    "definition": {
+        "templateAreas": "'main main' ",
+        "templateColumns": "1fr 1fr",
+        "templateRows": " 1fr"
+    },
+    "children": [
+        {
+            "child": {
+                "viewName": "ExampleButtonArray"
+            },
+            "args": {
+                "area": "hleft"
+            }
+        }
+    ]
+}

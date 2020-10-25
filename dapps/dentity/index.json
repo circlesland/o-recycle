@@ -1,0 +1,69 @@
+{
+	"children": [{
+		"child": {
+			"viewName": "ExampleButtonArray"
+		},
+		"args": {
+			"area": "hleft"
+		}
+	}, {
+		"child": {
+			"viewName": "ExampleButtonArray"
+		},
+		"args": {
+			"area": "hright"
+		}
+	}, {
+		"child": {
+			"viewName": "ExampleButtonArray"
+		},
+		"args": {
+			"area": "bottom"
+		}
+	}, {
+		"child": {
+			"children": [{
+				"child": {
+					"viewName": "ExampleButtonArray"
+				},
+				"args": {
+					"area": "content"
+				}
+			}, {
+				"child": {
+					"viewName": "ExampleButtonArray"
+				},
+				"args": {
+					"area": "content"
+				}
+			}, {
+				"child": {
+					"viewName": "ExampleButtonArray"
+				},
+				"args": {
+					"area": "content"
+				}
+			}, {
+				"child": {
+					"viewName": "ExampleButtonArray"
+				},
+				"args": {
+					"area": "content"
+				}
+			}],
+			"definition": {
+				"templateAreas": "'content'",
+				"templateColumns": "1fr",
+				"templateRows": "1fr"
+			}
+		},
+		"args": {
+			"area": "main"
+		}
+	}],
+	"definition": {
+		"templateAreas": "'hleft hright' 'main main' 'bottom bottom'",
+		"templateColumns": "1fr 1fr",
+		"templateRows": "60px 1fr 60px"
+	}
+}
