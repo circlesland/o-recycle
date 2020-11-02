@@ -1,7 +1,8 @@
 <script lang="ts">
-  let local =
+  let local = true; /*
     window.location.hostname == "localhost" ||
-    window.location.hostname == "127.0.0.1";
+    window.location.hostname == "192.168.1.52" ||
+    window.location.hostname == "127.0.0.1";*/
   let development = window.location.hostname == "omo.local";
   let css =
     local || development
