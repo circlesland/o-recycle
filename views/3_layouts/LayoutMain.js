@@ -1,6 +1,8 @@
-export const LayoutMain = {
-    areas: "'main'",
-    columns: "1fr",
-    rows: "1fr"
-};
+// import type { Layout } from "o-types";
+// export class LayoutMain implements Layout {
+//   areas: "'main'";
+//   columns: "1fr";
+//   rows: "1fr";
+// };
+export const dummy = "";
 //# sourceMappingURL=LayoutMain.js.map
